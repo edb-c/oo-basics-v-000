@@ -1,7 +1,7 @@
 # Make your shoe class here!
 class Book
   attr_accessor :author, :page_count, :genre
-  attr_reader :title
+  attr_reader :brand
  
   def initialize(title)
     @title = title
