@@ -36,8 +36,7 @@ class Book
   end
  
 end
-
-book = Book.new("Some Title")
+book = Book.new("And Then There Were None")
 book.turn_page
 book.title
 
