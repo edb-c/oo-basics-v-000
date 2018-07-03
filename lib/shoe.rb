@@ -14,4 +14,6 @@ class Shoe
   end
  
 end
-
+shoe = Shoe.new("Puma")
+shoe.cobble
+puts shoe.condition
