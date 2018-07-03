@@ -1,5 +1,5 @@
 # Make your shoe class here!
-class Book
+class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
  
@@ -9,10 +9,8 @@ class Book
  
   def cobble
     puts "Your shoe is as good as new!"
-    shoe.condition = 
+    shoe.condition = "new"
   end
  
 end
-book = Book.new("And Then There Were None")
-book.turn_page
-puts book.title
+#shoe = Shoe.new("Nike")
